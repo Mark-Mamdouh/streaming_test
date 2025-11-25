@@ -26,4 +26,11 @@
         android:layout_marginTop="16dp"
         android:text="Open Bunny Screen 2" />
 
+    <Button
+        android:id="@+id/btnBunny3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Open Bunny Screen 3" />
+
 </LinearLayout>
