@@ -27,6 +27,7 @@
         <activity android:name=".VdoCipherPlayerActivity" />
         <activity android:name=".BunnyPlayerActivity" />
         <activity android:name=".BunnyPlayerActivity2" />
+        <activity android:name=".BunnyPlayerActivity3" />
     </application>
 
 </manifest>
