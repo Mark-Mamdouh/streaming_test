@@ -38,15 +38,21 @@ class BunnyPlayerActivity4 : AppCompatActivity() {
                 <style>
                     body { margin:0; padding:0; background:#000; }
                     iframe { width:100%; height:100%; border:0; }
-                </style>
+                  html, body {
+                   margin: 0;
+                   padding: 0;
+                   width: 100%;
+                   height: 100%;   /* important */
+                   background: #000;
+    }
+                </style>               
             </head>
             <body>
 
             <iframe
                 id="bunny-frame"
                 src="https://iframe.mediadelivery.net/embed/545553/f15fa728-046d-4927-ade5-60c2ce38bff1"
-                allowfullscreen
-                width="720" height="400" >
+                width="1080" height="1000" >
             </iframe>
 
             <script>
