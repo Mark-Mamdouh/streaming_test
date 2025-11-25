@@ -29,5 +29,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnBunny3.setOnClickListener {
             startActivity(Intent(this, BunnyPlayerActivity3::class.java))
         }
+
+        binding.btnBunny4.setOnClickListener {
+            startActivity(Intent(this, BunnyPlayerActivity4::class.java))
+        }
     }
 }
